@@ -3,7 +3,7 @@ var socket;
 function setup() {
 	createCanvas(500, 500);
 	background(150,150,150);
-	socket = io.connect('http://localhost:3000');
+	socket = io.connect('https://websocket-test-005.herokuapp.com/');
 	socket.on('mouse', newDrawing);
 }
 
