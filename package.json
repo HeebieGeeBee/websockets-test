@@ -1,0 +1,29 @@
+{
+  "name": "playproject",
+  "version": "1.0.0",
+  "description": "socket testing ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeebieGeeBee/feckin-about.git"
+  },
+  "keywords": [
+    "sockets",
+    "p5.js",
+    "node"
+  ],
+  "author": "Geoffrey Bull",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeebieGeeBee/feckin-about/issues"
+  },
+  "homepage": "https://github.com/HeebieGeeBee/feckin-about#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
