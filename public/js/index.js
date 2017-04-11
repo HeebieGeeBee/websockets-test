@@ -14,7 +14,6 @@ function newDrawing(data) {
 }
 
 function mouseDragged() {
-	console.log('Sending: ' + mouseX + ',' + mouseY);
 	var data = {
 		x: mouseX,
 		y: mouseY
