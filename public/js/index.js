@@ -8,6 +8,7 @@ function setup() {
 }
 
 function newDrawing(data) {
+	console.log(data[1]);
 	noStroke();
 	fill(data.color);
 	ellipse(data.x, data.y, 20, 20);
@@ -15,7 +16,7 @@ function newDrawing(data) {
 
 function mouseDragged() {
 	fill(random(0, 120), random(0, 120), random(0, 120));
-	console.log(color);
+	
 	noStroke();
 	ellipse(mouseX, mouseY, 20, 20);
 
@@ -26,7 +27,7 @@ function mouseDragged() {
 		y: mouseY,
 		color: color
 	}
-
+	
 	socket.emit('mouse', data)
 
 	
