@@ -9,7 +9,7 @@ function setup() {
 
 function newDrawing(data) {
 	noStroke(255);
-	fill(randomColor);
+	fill(random(0, 255), 120. 120);
 	ellipse(data.x, data.y, 20, 20);
 }
 
