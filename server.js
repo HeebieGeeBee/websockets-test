@@ -25,7 +25,6 @@ function newConnection(socket) {
 
 	function mouseMsg(data) {
 		socket.broadcast.emit('mouse', data);
-		console.log(data);
 	}
 }
 	
