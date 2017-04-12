@@ -27,7 +27,6 @@ function newConnection(socket) {
 
 	function mouseMsg(data) {
 		socket.broadcast.emit('mouse', data);
-		socket.broadcast.emit('mouse', store);
 		data.id = socket.id;
 		store.push(data);
 		
