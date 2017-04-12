@@ -8,7 +8,7 @@ function setup() {
 }
 
 function newDrawing(data) {
-	console.log(data[1]);
+	
 	noStroke();
 	fill(data.color);
 	ellipse(data.x, data.y, 20, 20);
